@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "Fuksi.Identity": {
+    "Fuksi.Loyalty.Web": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

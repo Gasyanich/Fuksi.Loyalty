@@ -3,12 +3,12 @@
     <PropertyGroup>
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
-        <RootNamespace>Fuksi.Identity</RootNamespace>
+        <RootNamespace>Fuksi.Loyalty.Web</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
 
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.22">
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -16,7 +16,6 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\Fuksi.Loyalty.Module.Auth\Fuksi.Loyalty.Module.Auth.csproj"/>
+        <ProjectReference Include="..\Fuksi.Loyalty.Module.Auth\Fuksi.Loyalty.Module.Auth.csproj" />
     </ItemGroup>
-
 </Project>

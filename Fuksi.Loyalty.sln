@@ -1,12 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fuksi.Loyalty.Web", "Fuksi.Loyalty.Web\Fuksi.Loyalty.Web.csproj", "{E0F26243-36ED-4E88-9A19-F16A60B93F58}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fuksi.Loyalty.Web", "src\Fuksi.Loyalty.Web\Fuksi.Loyalty.Web.csproj", "{E0F26243-36ED-4E88-9A19-F16A60B93F58}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{B9213F6D-C208-44DB-9CFD-BDAA6E40C5F7}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{3D23DB4C-A4A0-4F6B-A190-EA4A094C4BC5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fuksi.Loyalty.Module.Auth", "Fuksi.Loyalty.Module.Auth\Fuksi.Loyalty.Module.Auth.csproj", "{A87492CA-2848-4511-A90F-C1AE5EA32023}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fuksi.Loyalty.Module.Auth", "src\Fuksi.Loyalty.Module.Auth\Fuksi.Loyalty.Module.Auth.csproj", "{A87492CA-2848-4511-A90F-C1AE5EA32023}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
